@@ -40,7 +40,7 @@ Here are a couple of image examples: an image:images/smallnew.png[]
 example inline image followed by an example block image:
 
 .Tiger block image
-image::images/tiger.png[Tiger image]
+image::tiger.png[Tiger image]
 
 Followed by an example table:
 
