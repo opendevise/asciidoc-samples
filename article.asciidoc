@@ -84,6 +84,8 @@ indexterm:[Second example index entry]
 
 An example link to a bibliography entry <<taoup>>.
 
+A link to link:moredocs/adoc.asciidoc[a document] in a relative directory.
+
 :numbered!:
 
 [appendix]
