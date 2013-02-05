@@ -36,7 +36,7 @@ entries.
 (((Big cats,Tigers,Siberian Tiger)))
 Note that multi-entry terms generate separate index entries.
 
-Here are a couple of image examples: an image:images/smallnew.png[]
+Here are a couple of image examples: an image:images/tiger.png[]
 example inline image followed by an example block image:
 
 .Tiger block image
