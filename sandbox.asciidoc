@@ -1,3 +1,5 @@
 = Sandbox
+// set -a linkext=html when building locally
+:linkext: asciidoc
 
-Here's an example of a link:moredocs/adoc.asciidoc[relative link] to a file in a sub directory.
+Here's an example of a link:moredocs/adoc.{linkext}[relative link] to a file in a sub directory.
