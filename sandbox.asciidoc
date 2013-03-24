@@ -1,1 +1,3 @@
 = Sandbox
+
+Here's an example of a link:moredocs/adoc.asciidoc[relative link] to a file in a sub directory.
