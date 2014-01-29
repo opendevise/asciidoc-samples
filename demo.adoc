@@ -117,7 +117,11 @@ written on two lines
 ....
 with this literal text
 ....
-+
+
+* first level
+
+ with more literal text
+
 ** second level
 *** third level
 - fourth level
@@ -138,7 +142,7 @@ We'll be right with you...
 after this brief interruption.
 ////
 
-== We're back!
+== ...and we're back!
 
 Want to see a image:tiger.png[Tiger]?
 
@@ -149,15 +153,15 @@ image::tiger.png[]
 
 include::include.adoc[]
 
-.Asciidoctor usage example, should contain 5 lines
+.Asciidoctor usage example. The listing should contain 5 lines.
 [source,ruby]
-----
+--
 require 'asciidoctor'
 
 doc = Asciidoctor.load '*This* is http://asciidoc.org[AsciiDoc]!', header_footer: true
 
 puts doc.render
-----
+--
 
 // TODO: Use ifdef to show output according to current backend
 .Output of Asciidoctor usage example
@@ -212,7 +216,7 @@ ____
 Getting Literal [[literally]]
 -----------------------------
 
- Want to get literal? Just prefix a line with a space (just one will do).
+ Want to get literal? Just prefix a line with a space (just 1 space will do).
 
 ....
 I'll join that party, too.
