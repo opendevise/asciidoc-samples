@@ -24,9 +24,11 @@ And this is the preamble of this document.
 
 toc::[]
 
+ifdef::env-github[]
 ++++
 <a name="purpose"></a>
 ++++
+endif::env-github[]
 
 [[purpose]]
 .Purpose
@@ -78,9 +80,11 @@ and continue typing on the next line.
 * to have
 * four items
 
+ifdef::env-github[]
 ++++
 <a name="ordered"></a>
 ++++
+endif::env-github[]
 
 [[ordered]]
 .Ordered lists
