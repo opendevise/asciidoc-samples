@@ -2,6 +2,7 @@
 Dan Allen <http://github.com/mojavelinux>
 v1.0,
 :imagesdir: images
+:experimental:
 
 This file shows information about the Asciidoctor runtime and the current file.
 It also has some examples showing off some of the available features.
@@ -84,7 +85,8 @@ source code example::
 puts 'Hello, syntax highlighting!'
 
 image example::
-image:tiger.png[Tiger,200,200]
++
+image::tiger.png[Tiger,200,200]
 
 passthrough example::
 +++<i title="Yet Another Markup Language">YAML</i>+++
@@ -95,3 +97,14 @@ ordered list numbering offset:: {empty}
 . ten
 . eleven
 . twelve
+
+UI macro examples::
+
+  Button (btn):::
+  Click the btn:[OK] button to continue.
+
+  Keybinding (kbd):::
+  Use the keybinding kbd:[Ctrl+Shift+T] to create a new class.
+
+  Menu (menu):::
+  Select menu:View[Zoom > Reset] to reset the zoom level.
