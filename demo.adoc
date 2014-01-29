@@ -76,8 +76,10 @@ and continue typing on the next line.
 * to have
 * four items
 
++++<a name="ordered"></a>+++
+
 [[ordered]]
-.+++<a name="ordered"></a>+++Ordered lists
+.Ordered lists
 . These items
 . will be auto-numbered
 .. and can be nested
