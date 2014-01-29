@@ -139,24 +139,46 @@ image::tiger.png[]
 
 include::include.asciidoc[]
 
-.Asciidoctor usage example, should contain 3 lines
-[source, ruby]
+.Asciidoctor usage example, should contain 5 lines
+[source,ruby]
 ----
-doc = Asciidoctor::Document.new("*This* is it!", :header_footer => false)
+require 'asciidoctor'
+
+doc = Asciidoctor.load '*This* is http://asciidoc.org[AsciiDoc]!', header_footer: true
 
 puts doc.render
 ----
 
-// FIXME: use ifdef to show output according to backend
-Here's what it outputs (using the built-in templates):
-
-....
-<div class="paragraph">
-  <p><strong>This</strong> is it!</p>
+// TODO: Use ifdef to show output according to current backend
+.Output of Asciidoctor usage example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Asciidoctor 0.1.4">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untitled</title>
+<link rel="stylesheet" href="./asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
 </div>
-....
+<div id="content">
+<div class="paragraph">
+<p><strong>This</strong> is <a href="http://asciidoc.org">AsciiDoc</a>!</p>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2014-01-28 20:11:37 MST
+</div>
+</div>
+</body>
+</html>
+```
 
-=== ``Quotes''
+=== ``Smart'' Quotes
 
 ____
 AsciiDoc is 'so' *powerful*!
