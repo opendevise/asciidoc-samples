@@ -79,6 +79,7 @@ source highlighter::
 
 source code example::
 +
+.Ruby code
 [source,ruby]
 puts 'Hello, syntax highlighting!'
 
