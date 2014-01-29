@@ -77,7 +77,7 @@ and continue typing on the next line.
 * four items
 
 [[ordered]]
-.Ordered lists
+.+++<a name="ordered"></a>+++Ordered lists
 . These items
 . will be auto-numbered
 .. and can be nested
