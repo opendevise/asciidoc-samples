@@ -236,7 +236,7 @@ Go to this URL to learn more about it:
 
 * http://asciidoc.org
 
-Or you could return to the xref:first[] or <<purpose,Purpose>>.
+Or you could return to the xref:1-first-steps-with-asciidoc[] or <<purpose,Purpose>>.
 =====
 
 Here's a reference to the definition of <<another_term>>, in case you forgot it.
