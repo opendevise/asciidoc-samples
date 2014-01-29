@@ -19,8 +19,11 @@ Dan Allen <thedoc@asciidoctor.org>
 //:doctype: book
 //:sectids!:
 
-[role='lead']
-This is a demonstration of {library}. And this is the preamble of this document.
+This is a demonstration of {library} {asciidoctor-version}. And this is the preamble of this document.
+
+++++
+<a name="purpose"></a>
+++++
 
 [[purpose]]
 .Purpose
@@ -32,7 +35,7 @@ TIP: If you want the output to look familiar, copy (or link) the AsciiDoc styles
 
 NOTE: Items marked with TODO are either not yet supported or a work in progress.
 
-[[first,First Steps]]
+[[1-first-steps-with-asciidoc,First Steps]]
 == First Steps with http://asciidoc.org[AsciiDoc]
 
 .Inline markup
