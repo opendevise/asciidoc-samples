@@ -1,5 +1,8 @@
 = Sandbox
-// set -a linkext=html when building locally
+// set -a linkext=html and -a outfilesuffix=.html when building locally
 :linkext: asciidoc
+:outfilesuffix: .adoc
 
-Here's an example of a link:moredocs/adoc.{linkext}[relative link] to a file in a sub directory.
+Here's an example of a link:moredocs/adoc.{linkext}[relative link] to a file in a sub directory using the link inline macro.
+
+Here's an example of a <<moredocs/adoc#,relative link>> to a file in a sub directory using the xref inline macro.
