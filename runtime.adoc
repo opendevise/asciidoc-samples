@@ -72,3 +72,6 @@ source code example::
 +
 [source,ruby]
 puts 'Hello, syntax highlighting!'
+
+image example::
+image:tiger.png[]
