@@ -1,4 +1,11 @@
 = Asciidoctor Runtime Information
+Dan Allen <http://github.com/mojavelinux>
+v1.0,
+:imagesdir: images
+
+AsciiDoc implementation footnoteref:[calculated,Calculated value]::
+ifdef::asciidoctor-version[Asciidoctor]
+ifdef::asciidoc-version[AsciiDoc Python]
 
 asciidoctor-version::
 {asciidoctor-version}
@@ -21,20 +28,45 @@ ifeval::["{docdir}" == ""]
 _empty_
 endif::[]
 
+doctitle::
+{doctitle}
+
+author::
+{author}
+
+revision::
+{revnumber}
+
 backend::
 {backend}
+
+basebackend::
+{basebackend}
+
+outfilesuffix::
+{outfilesuffix}
 
 doctype::
 {doctype}
 
-docdate::
-{docdate}
+Render mode footnoteref:[calculated]::
+ifdef::embedded[embedded]
+ifndef::embedded[standalone]
 
-doctime::
-{doctime}
+docdate @ doctime::
+{docdate} @ {doctime}
+
+localdate @ localtime::
+{localdate} @ {localtime}
+
+imagesdir::
+{imagesdir}
 
 utf-8 example::
 µService
+
+source highlighter::
+{source-highlighter}
 
 source code example::
 +
