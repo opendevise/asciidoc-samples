@@ -74,4 +74,4 @@ source code example::
 puts 'Hello, syntax highlighting!'
 
 image example::
-image:tiger.png[]
+image:tiger.png[Tiger,200,200]
