@@ -1,6 +1,6 @@
 = Sandbox
 // set -a outfilesuffix=.html when building locally
-:linkext: asciidoc
+:outfilesuffix: .adoc
 
 Here's an example of a link:moredocs/another{outfilesuffix}[relative link] to a file in a sub directory using the link inline macro.
 
