@@ -1,0 +1,42 @@
+= Asciidoctor Runtime Information
+
+asciidoctor-version::
+{asciidoctor-version}
+
+safe-mode-name::
+{safe-mode-name}
+
+env::
+{env}
+
+docfile::
+ifdef::docfile[{docfile}]
+ifndef::docfile[_n/a_]
+
+docdir::
+ifeval::["{docdir}" != ""]
+{docdir}
+endif::[]
+ifeval::["{docdir}" == ""]
+_empty_
+endif::[]
+
+backend::
+{backend}
+
+doctype::
+{doctype}
+
+docdate::
+{docdate}
+
+doctime::
+{doctime}
+
+utf-8 example::
+µService
+
+source code example::
++
+[source,ruby]
+puts 'Hello, syntax highlighting!'
