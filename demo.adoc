@@ -13,13 +13,16 @@ Dan Allen <thedoc@asciidoctor.org>
 :idprefix:
 :numbered:
 :imagesdir: .
-:toc:
+:toc: manual
 :css-signature: demo
 //:max-width: 800px
 //:doctype: book
 //:sectids!:
 
-This is a demonstration of {library} {asciidoctor-version}. And this is the preamble of this document.
+This is a demonstration of {library} {asciidoctor-version}.
+And this is the preamble of this document.
+
+toc::[]
 
 ++++
 <a name="purpose"></a>
@@ -35,8 +38,8 @@ TIP: If you want the output to look familiar, copy (or link) the AsciiDoc styles
 
 NOTE: Items marked with TODO are either not yet supported or a work in progress.
 
-[[1-first-steps-with-asciidoc,First Steps]]
-== First Steps with http://asciidoc.org[AsciiDoc]
+[[1-first-steps-with-asciidoc]]
+== First Steps with AsciiDoc
 
 .Inline markup
 * single quotes around a phrase place 'emphasis'
@@ -45,12 +48,8 @@ NOTE: Items marked with TODO are either not yet supported or a work in progress.
 * double underscore around a __sub__string in a word emphasizes that substring
 * use carrots around characters to make them ^super^script
 * use tildes around characters to make them ~sub~script
-ifdef::basebackend-html[]
-* to pass through +++<u>HTML</u>+++ directly, surround the text with triple plus
-endif::basebackend-html[]
-ifdef::basebackend-docbook[]
-* to pass through +++<constant>XML</constant>+++ directly, surround the text with triple plus
-endif::basebackend-docbook[]
+ifdef::basebackend-html[* to pass through +++<b>HTML</b>+++ directly, surround the text with triple plus]
+ifdef::basebackend-docbook[* to pass through +++<constant>XML</constant>+++ directly, surround the text with triple plus]
 
 // separate two adjacent lists using a line comment (only the leading // is required)
 
