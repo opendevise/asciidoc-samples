@@ -208,7 +208,7 @@ Getting Literal [[literally]]
 I'll join that party, too.
 ....
 
-We forgot to mention in <<numbered>> that you can change the numbering style.
+We forgot to mention in <<ordered>> that you can change the numbering style.
 
 .. first item (yeah!)
 .. second item, looking `so mono`
