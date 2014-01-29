@@ -3,6 +3,11 @@ Dan Allen <http://github.com/mojavelinux>
 v1.0,
 :imagesdir: images
 
+This file shows information about the Asciidoctor runtime and the current file.
+It also has some examples showing off some of the available features.
+
+== Environment Info
+
 AsciiDoc implementation footnoteref:[calculated,Calculated value]::
 ifdef::asciidoctor-version[Asciidoctor]
 ifdef::asciidoc-version[AsciiDoc Python]
@@ -15,6 +20,12 @@ safe-mode-name::
 
 env::
 {env}
+
+Rendering mode footnoteref:[calculated]::
+ifdef::embedded[embedded]
+ifndef::embedded[standalone]
+
+== File Info
 
 docfile::
 ifdef::docfile[{docfile}]
@@ -49,10 +60,6 @@ outfilesuffix::
 doctype::
 {doctype}
 
-Render mode footnoteref:[calculated]::
-ifdef::embedded[embedded]
-ifndef::embedded[standalone]
-
 docdate @ doctime::
 {docdate} @ {doctime}
 
@@ -61,6 +68,8 @@ localdate @ localtime::
 
 imagesdir::
 {imagesdir}
+
+== Examples
 
 utf-8 example::
 µService
