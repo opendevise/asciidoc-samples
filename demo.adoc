@@ -12,7 +12,7 @@ Dan Allen <thedoc@asciidoctor.org>
 :library: Asciidoctor
 :idprefix:
 :numbered:
-:imagesdir: .
+:imagesdir: images
 :toc: manual
 :css-signature: demo
 //:max-width: 800px
