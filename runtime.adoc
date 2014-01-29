@@ -75,3 +75,13 @@ puts 'Hello, syntax highlighting!'
 
 image example::
 image:tiger.png[Tiger,200,200]
+
+passthrough example::
++++<i title="Yet Another Markup Language">YAML</i>+++
+
+ordered list numbering offset:: {empty}
++
+[start=10]
+. ten
+. eleven
+. twelve
