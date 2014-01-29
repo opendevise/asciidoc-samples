@@ -1,3 +1,3 @@
 This is a doc inside a relative directory.
 
-link:../sandbox.asciidoc[back to the future]
+link:../sandbox.adoc[back to the future]
