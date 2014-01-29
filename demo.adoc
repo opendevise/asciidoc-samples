@@ -76,7 +76,9 @@ and continue typing on the next line.
 * to have
 * four items
 
-+++<a name="ordered"></a>+++
+++++
+<a name="ordered"></a>
+++++
 
 [[ordered]]
 .Ordered lists
