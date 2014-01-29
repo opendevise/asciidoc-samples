@@ -178,7 +178,7 @@ Last updated 2014-01-28 20:11:37 MST
 </html>
 ```
 
-=== ``Smart'' Quotes
+=== Block Quotes and ``Smart'' Ones
 
 ____
 AsciiDoc is 'so' *powerful*!
@@ -196,6 +196,8 @@ ____
 When you have eliminated all which is impossible, then whatever remains,
 however improbable, must be the truth.
 ____
+
+``Get moving!'' he shouted.
 
 Getting Literal [[literally]]
 -----------------------------
