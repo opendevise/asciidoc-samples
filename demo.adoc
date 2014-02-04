@@ -15,14 +15,13 @@ Dan Allen <thedoc@asciidoctor.org>
 :imagesdir: images
 :toc: manual
 :css-signature: demo
+:toc-placement: preamble
 //:max-width: 800px
 //:doctype: book
 //:sectids!:
 
 This is a demonstration of {library} {asciidoctor-version}.
 And this is the preamble of this document.
-
-toc::[]
 
 ifdef::env-github[]
 ++++
