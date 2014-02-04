@@ -98,6 +98,27 @@ ordered list numbering offset:: {empty}
 . eleven
 . twelve
 
+table header and footer rows:: {empty}
++
+[%header%footer]
+|===
+|Month |Savings
+
+|Jan
+|$100
+
+|Feb
+|$50
+
+2+|Total saved: $150
+|===
+
+include file:: {empty}
++
+--
+include::include.adoc[]
+--
+
 UI macro examples::
 
   Button (btn):::
