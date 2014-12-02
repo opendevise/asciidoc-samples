@@ -3,6 +3,7 @@ Dan Allen <http://github.com/mojavelinux>
 v1.0,
 :imagesdir: images
 :experimental:
+:toc: preamble
 
 This file shows information about the Asciidoctor runtime and the current file.
 It also has some examples showing off some of the available features.
