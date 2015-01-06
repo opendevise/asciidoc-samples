@@ -81,7 +81,7 @@ The Second Section
 Article sections are at level 1 and can contain sub-sections nested up
 to four deep.
 
-An example link to anchor at start of the <<X1,first sub-section>>.
+An example link to anchor at start of <<the-first-section>> and <<X1,the first sub-section>>.
 indexterm:[Second example index entry]
 
 An example link to a bibliography entry <<taoup>>.
