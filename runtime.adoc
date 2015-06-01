@@ -1,6 +1,6 @@
 = Asciidoctor Runtime Information
 Dan Allen <http://github.com/mojavelinux>
-v1.0, 2014-12-01
+v1.0.1, 2015-05-31
 :imagesdir: images
 :experimental:
 :toc:
@@ -74,7 +74,7 @@ imagesdir::
 
 == Examples
 
-utf-8 example::
+UTF-8 example::
 µService
 
 source highlighter::
