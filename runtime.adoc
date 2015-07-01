@@ -45,7 +45,7 @@ _empty_
 endif::[]
 ////
 docdir::
-{docdir}
+{empty}{docdir}
 
 doctitle::
 {doctitle}
