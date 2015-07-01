@@ -35,6 +35,7 @@ docfile::
 ifdef::docfile[{docfile}]
 ifndef::docfile[_n/a_]
 
+////
 docdir::
 ifeval::["{docdir}" != ""]
 {docdir}
@@ -42,6 +43,7 @@ endif::[]
 ifeval::["{docdir}" == ""]
 _empty_
 endif::[]
+////
 
 doctitle::
 {doctitle}
