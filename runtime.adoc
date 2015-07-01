@@ -75,6 +75,8 @@ imagesdir::
 
 == Examples
 
+Also see <<examples-2>>.
+
 UTF-8 example::
 µService
 
