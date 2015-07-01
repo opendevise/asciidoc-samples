@@ -132,3 +132,7 @@ UI macro examples::
 
   Menu (menu):::
   Select menu:View[Zoom > Reset] to reset the zoom level.
+  
+== Examples
+
+Example of a duplicate section title.
