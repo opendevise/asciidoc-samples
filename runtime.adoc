@@ -138,3 +138,7 @@ UI macro examples::
 == Examples
 
 Example of a duplicate section title.
+
+== Examples
+
+An example of another duplicate section title.
