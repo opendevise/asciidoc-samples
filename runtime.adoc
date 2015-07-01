@@ -139,6 +139,25 @@ UI macro examples::
 
 Example of a duplicate section title.
 
+* several
+* lines
+* of
+* content
+* to
+* push
+* the
+* next
+* section
+* down
+* so
+* we
+* can
+* see
+* the
+* scroll
+* offset
+* easier
+
 == Examples
 
 An example of another duplicate section title.
