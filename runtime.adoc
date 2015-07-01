@@ -14,7 +14,7 @@ ifndef::env-github[]
 endif::[]
 
 This file shows information about the Asciidoctor runtime and the current file.
-It also has some examples showing off some of the available features.
+It also has some examples to show off the available features in this environment.
 
 == Environment Info
 
