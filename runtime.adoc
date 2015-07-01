@@ -44,6 +44,8 @@ ifeval::["{docdir}" == ""]
 _empty_
 endif::[]
 ////
+docdir::
+{docdir}
 
 doctitle::
 {doctitle}
