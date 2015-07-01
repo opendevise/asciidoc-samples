@@ -6,6 +6,7 @@ v1.0.2, 2015-07-01
 :toc:
 :toc-placement: preamble
 :toc-title: pass:[<b>Table of Contents</b>]
+:outfilesuffix-old: {outfilesuffix}
 ifdef::env-github[:outfilesuffix: .adoc]
 ifndef::env-github[]
 :idprefix:
@@ -67,7 +68,10 @@ backend::
 basebackend::
 {basebackend}
 
-outfilesuffix::
+outfilesuffix (default)::
+{outfilesuffix-old}
+
+outfilesuffix (override)::
 {outfilesuffix}
 
 doctype::
