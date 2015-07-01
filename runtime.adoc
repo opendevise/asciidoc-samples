@@ -107,7 +107,7 @@ image example::
 image::tiger.png[Tiger,200,200]
 
 passthrough example::
-+++<u title="Yet Another Markup Language">YAML</u>+++
++++<i title="Yet Another Markup Language">YAML</i> stands for <ins>Y</ins>et <ins>A</ins>nother <ins>M</ins>arkup <ins>L</ins>anguage+++
 
 ordered list numbering offset:: {empty}
 +
