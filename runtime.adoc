@@ -6,6 +6,7 @@ v1.0.1, 2015-05-31
 :toc:
 :toc-placement: preamble
 :toc-title: pass:[<b>Table of Contents</b>]
+ifdef::env-github[:outfilesuffix: .adoc]
 ifndef::env-github[]
 :idprefix:
 :idseparator: -
