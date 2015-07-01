@@ -6,6 +6,10 @@ v1.0.1, 2015-05-31
 :toc:
 :toc-placement: preamble
 :toc-title: pass:[<b>Table of Contents</b>]
+ifndef::env-github[]
+:idprefix:
+:idseparator: -
+endif::[]
 
 This file shows information about the Asciidoctor runtime and the current file.
 It also has some examples showing off some of the available features.
