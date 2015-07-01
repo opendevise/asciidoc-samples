@@ -146,27 +146,38 @@ UI macro examples::
   
 == Examples
 
-Example of a duplicate section title.
+Example of a duplicate section title to test auto-generated IDs.
 
-* several
-* lines
-* of
-* content
-* to
-* push
-* the
-* next
-* section
-* down
-* so
-* we
-* can
-* see
-* the
-* scroll
-* offset
-* easier
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
 
 == Examples
 
-An example of another duplicate section title.
+Another example of a duplicate section title to test auto-generated IDs.
+
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
+* filler
