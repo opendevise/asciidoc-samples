@@ -83,7 +83,7 @@ imagesdir::
 
 == Examples
 
-Also see <<examples-2>>.
+Also see <<examples-2>> in this document or the <<article#example-abstract,Example Abstract>> in another document in this repository.
 
 UTF-8 example::
 µService
