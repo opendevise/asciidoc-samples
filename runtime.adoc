@@ -7,7 +7,10 @@ v1.0.3, 2015-08-03
 :toc-placement: preamble
 :toc-title: pass:[<b>Table of Contents</b>]
 :outfilesuffix-old: {outfilesuffix}
-ifdef::env-github[:outfilesuffix: .adoc]
+ifdef::env-github[]
+:outfilesuffix: .adoc
+:tip-caption: :bulb:
+endif::[]
 ifndef::env-github[]
 :idprefix:
 :idseparator: -
@@ -105,6 +108,11 @@ puts 'Hello, syntax highlighting!'
 image example::
 +
 image::tiger.png[Tiger,200,200]
+
+admonition example::
++
+TIP: The icon is enabled on this tip by setting the `tip-caption` attribute to the emoji short code `:bulb:`.
+You can do the same for all the admonition types.
 
 passthrough example::
 +++<i title="Yet Another Markup Language">YAML</i> stands for <ins>Y</ins>et <ins>A</ins>nother <ins>M</ins>arkup <ins>L</ins>anguage+++
