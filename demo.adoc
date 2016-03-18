@@ -1,5 +1,4 @@
-Asciidoctor Demo
-================
+= Asciidoctor Demo
 ////
 Big ol' comment
 
@@ -13,9 +12,9 @@ Dan Allen <thedoc@asciidoctor.org>
 :idprefix:
 :numbered:
 :imagesdir: images
-:toc: manual
+//:toc: macro
+:toc: preamble
 :css-signature: demo
-:toc-placement: preamble
 //:max-width: 800px
 //:doctype: book
 //:sectids!:
@@ -42,7 +41,7 @@ NOTE: Items marked with TODO are either not yet supported or a work in progress.
 == First Steps with AsciiDoc
 
 .Inline markup
-* single quotes around a phrase place 'emphasis'
+* underlines around a phrase place _emphasis_
 * astericks around a phrase make the text *bold*
 * double astericks around one or more **l**etters in a word make those letters bold
 * double underscore around a __sub__string in a word emphasizes that substring
@@ -54,7 +53,7 @@ ifdef::basebackend-docbook[* to pass through +++<constant>XML</constant>+++ dire
 // separate two adjacent lists using a line comment (only the leading // is required)
 
 - characters can be escaped using a {backslash}
-* for instance, you can escape a quote inside emphasized text like 'Here\'s Johnny!'
+* for instance, you can escape a quote inside emphasized text like _Here\'s Johnny!_
 - you can safely use reserved XML characters like <, > and &, which are escaped when rendering
 - force a space{sp}between inline elements using the \{sp} attribute
 - hold text together with an intrinsic non-breaking{nbsp}space attribute, \{nbsp}
@@ -95,7 +94,7 @@ endif::env-github[]
 * items
 
 .Statement
-I swear I left it in 'Guy\'s' car. Let\'s go look for it.
+I swear I left it in _Guy\'s_ car. Let\'s go look for it.
 
 [[defs]]
 term::
@@ -153,13 +152,13 @@ include::include.adoc[]
 
 .Asciidoctor usage example. The listing should contain 5 lines.
 [source,ruby]
---
+----
 require 'asciidoctor'
 
 doc = Asciidoctor.load '*This* is http://asciidoc.org[AsciiDoc]!', header_footer: true
 
 puts doc.render
---
+----
 
 // TODO: Use ifdef to show output according to current backend
 .Output of Asciidoctor usage example
@@ -190,10 +189,10 @@ Last updated 2014-01-28 20:11:37 MST
 </html>
 ```
 
-=== Block Quotes and ``Smart'' Ones
+=== Block Quotes and "`Smart`" Ones
 
 ____
-AsciiDoc is 'so' *powerful*!
+AsciiDoc is _so_ *powerful*!
 ____
 
 This verse comes to mind.
@@ -209,10 +208,9 @@ When you have eliminated all which is impossible, then whatever remains,
 however improbable, must be the truth.
 ____
 
-``Get moving!'' he shouted.
+"`Get moving!`" he shouted.
 
-Getting Literal [[literally]]
------------------------------
+== Getting Literal [[literally]]
 
  Want to get literal? Just prefix a line with a space (just 1 space will do).
 
@@ -224,7 +222,7 @@ We forgot to mention in <<ordered>> that you can change the numbering style.
 
 .. first item (yeah!)
 .. second item, looking `so mono`
-.. third item, +mono+ it is!
+.. third item, `mono` it is!
 
 // This attribute line will get reattached to the next block
 // despite being followed by a trailing blank line
