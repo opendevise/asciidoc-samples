@@ -93,6 +93,11 @@ imagesdir::
 
 Also see <<examples-2>> in this document or the <<article#example-abstract,Example Abstract>> in another document in this repository.
 
+admonition example::
++
+TIP: The icon is enabled on this tip by setting the `tip-caption` attribute to the emoji short code `:bulb:`.
+You can do the same for all the admonition types.
+
 UTF-8 example::
 µService
 
@@ -108,11 +113,6 @@ puts 'Hello, syntax highlighting!'
 image example::
 +
 image::tiger.png[Tiger,200,200]
-
-admonition example::
-+
-TIP: The icon is enabled on this tip by setting the `tip-caption` attribute to the emoji short code `:bulb:`.
-You can do the same for all the admonition types.
 
 passthrough example::
 +++<i title="Yet Another Markup Language">YAML</i> stands for <ins>Y</ins>et <ins>A</ins>nother <ins>M</ins>arkup <ins>L</ins>anguage+++
