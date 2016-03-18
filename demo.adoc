@@ -18,6 +18,10 @@ Dan Allen <thedoc@asciidoctor.org>
 //:max-width: 800px
 //:doctype: book
 //:sectids!:
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+endif::[]
 
 This is a demonstration of {library} {asciidoctor-version}.
 And this is the preamble of this document.
