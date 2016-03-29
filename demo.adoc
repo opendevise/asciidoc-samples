@@ -143,7 +143,7 @@ after this brief interruption.
 
 == ...and we're back!
 
-Want to see a image:tiger.png[Tiger]?
+Do you want to see a image:tiger.png[Tiger,50]?
 
 Do you feel safer with the tiger in a box?
 
