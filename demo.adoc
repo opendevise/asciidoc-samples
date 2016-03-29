@@ -56,7 +56,7 @@ ifdef::basebackend-docbook[* to pass through +++<constant>XML</constant>+++ dire
 
 - characters can be escaped using a {backslash}
 * for instance, you can escape a quote inside emphasized text like _Here\'s Johnny!_
-- you can safely use reserved XML characters like <, > and &, which are escaped when rendering
+- you can safely use reserved XML characters like <, > and &, which are escaped when converting
 - force a space{sp}between inline elements using the \{sp} attribute
 - hold text together with an intrinsic non-breaking{nbsp}space attribute, \{nbsp}
 - handle words with unicode characters like in the name Gregory Romé
@@ -159,7 +159,7 @@ require 'asciidoctor'
 
 doc = Asciidoctor.load '*This* is http://asciidoc.org[AsciiDoc]!', header_footer: true
 
-puts doc.render
+puts doc.convert
 ----
 
 // TODO: Use ifdef to show output according to current backend
