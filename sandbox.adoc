@@ -5,3 +5,12 @@ ifdef::env-github[:outfilesuffix: .adoc]
 Here's an example of a link:moredocs/another{outfilesuffix}[relative link] to a file in a sub directory using the link inline macro.
 
 Here's an example of a <<moredocs/another#,relative link>> to a file in a sub directory using the xref inline macro.
+
+++++
+<table width="100%">
+  <tr>
+    <td width="20%">20%</td>
+    <td width="80%">80%</td>
+  </tr>
+</table>
+++++
