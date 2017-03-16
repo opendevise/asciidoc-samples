@@ -166,7 +166,9 @@ UI macro examples::
   
 == Examples
 
-Example of a duplicate section title to test auto-generated IDs.
+An example of a first duplicate section title to test auto-generated IDs.
+The ID of this section is examples-1 since the unique_id_start_index compliance value is 1.
+The ID resolves to <<examples-1>>.
 
 * filler
 * filler
@@ -185,7 +187,8 @@ Example of a duplicate section title to test auto-generated IDs.
 
 == Examples
 
-Another example of a duplicate section title to test auto-generated IDs.
+An example of another duplicate section title to test auto-generated IDs.
+The ID of this section is examples-2 and resolves to <<examples-2>>.
 
 * filler
 * filler
