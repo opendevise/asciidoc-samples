@@ -91,8 +91,6 @@ imagesdir::
 
 == Examples
 
-Also see <<examples-2>> in this document or the <<article#example-abstract,Example Abstract>> in another document in this repository.
-
 admonition example::
 +
 TIP: The icon is enabled on this tip by setting the `tip-caption` attribute to the emoji short code `:bulb:`.
@@ -163,6 +161,8 @@ UI macro examples::
 
   Menu (menu):::
   Select menu:View[Zoom > Reset] to reset the zoom level.
+  
+See more <<examples-2>> in this document or the <<article#example-abstract,Example Abstract>> in another document located in this repository.
   
 == Examples
 
