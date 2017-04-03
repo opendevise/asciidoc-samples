@@ -6,9 +6,7 @@ v1.0.3, 2015-08-03
 :toc:
 :toc-placement: preamble
 :toc-title: pass:[<b>Table of Contents</b>]
-:outfilesuffix-old: {outfilesuffix}
 ifdef::env-github[]
-:outfilesuffix: .adoc
 :tip-caption: :bulb:
 endif::[]
 ifndef::env-github[]
@@ -39,6 +37,9 @@ ifdef::embedded[embedded]
 ifndef::embedded[standalone]
 
 == File Info
+
+docname::
+{docname}
 
 docfile::
 ifdef::docfile[{docfile}]
@@ -71,10 +72,10 @@ backend::
 basebackend::
 {basebackend}
 
-outfilesuffix (default)::
-{outfilesuffix-old}
+docfilesuffix::
+{docfilesuffix}
 
-outfilesuffix (override)::
+outfilesuffix::
 {outfilesuffix}
 
 doctype::
