@@ -1,3 +1,0 @@
-The value of the `outfilesuffix` attribute is {outfilesuffix}.
-
-The value of the `docname` attribute is {docname}.
