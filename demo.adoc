@@ -12,6 +12,7 @@ Dan Allen <thedoc@asciidoctor.org>
 :idprefix:
 :numbered:
 :imagesdir: images
+:experimental:
 //:toc: macro
 :toc: preamble
 :css-signature: demo
@@ -61,6 +62,7 @@ ifdef::basebackend-docbook[* to pass through +++<constant>XML</constant>+++ dire
 - hold text together with an intrinsic non-breaking{nbsp}space attribute, \{nbsp}
 - handle words with unicode characters like in the name Gregory Romé
 - claim your copyright (C), registered trademark (R) or trademark (TM)
+- select menu:View[Zoom > Reset] to reset the zoom.
 
 You can write text http://example.com[with inline links], optionally{sp}using
 an explicit link:http://example.com[link prefix]. In either case, the link can
