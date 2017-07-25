@@ -14,8 +14,8 @@ ifndef::env-github[]
 :idseparator: -
 endif::[]
 
-This file shows information about the Asciidoctor runtime and the current file.
-It also has some examples to show off the available features in this environment.
+This file shows information about the current file as well as the version of Asciidoctor running on GitHub.
+It also has some examples to show off the available features in the GitHub environment.
 
 == Environment Info
 
