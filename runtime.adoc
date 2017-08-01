@@ -1,11 +1,10 @@
 = Asciidoctor Runtime Information
 Dan Allen <http://github.com/mojavelinux>
-v1.0.3, 2015-08-03
+v1.0.3, 2017-08-01
 :imagesdir: images
 :experimental:
-:toc:
-:toc-placement: preamble
-:toc-title: pass:[<b>Table of Contents</b>]
+:toc: preamble
+:toc-title: pass:[<b>Contents</b>]
 ifdef::env-github[]
 :tip-caption: :bulb:
 endif::[]
