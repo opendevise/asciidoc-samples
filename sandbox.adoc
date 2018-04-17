@@ -16,3 +16,7 @@ Here's an example of a <<moredocs/another#,relative link>> to a file in a sub di
 == What's This About?
 
 It's a sandbox.
+
+=== About sub-section
+
+More detail.
