@@ -1,3 +1,5 @@
+(View the source of this document to see how the hard line breaks are being controlled).
+
 By default, newlines between consecutive lines in prose (i.e., paragraph text) are not preserved. They are treated as a single space, just like in HTML.
 
 first line
