@@ -1,0 +1,26 @@
+By default, newlines between consecutive lines in prose (i.e., paragraph text) are not preserved. They are treated as a single space, just like in HTML.
+
+first line
+second line
+third line
+
+If you want newlines to be preserved as hard line breaks, you can add the `hardbreaks` option to the paragraph.
+
+[%hardbreaks]
+first line
+second line
+third line
+
+If you want to set this option globally, define the `hardbreaks` attribute in the document header (but know what you are doing).
+
+A third option is to add explicit hard line breaks in the source by adding a space followed by a plus to the end of the line.
+
+first line +
+second line +
+third line
+
+Newlines are always preserved in preformatted blocks, such as a literal paragraph, literal block, or listing block.
+
+ first line
+ second line
+ third line
