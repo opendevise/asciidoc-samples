@@ -40,10 +40,13 @@ entries.
 Note that multi-entry terms generate separate index entries.
 
 Here are a couple of image examples: an image:tiger.png[]
-example inline image followed by an example block image:
+example inline image followed by block images:
 
-.Tiger block image
+.PNG block image
 image::tiger.png[Tiger image]
+
+.SVG block image
+image::ruby.svg[Ruby]
 
 Followed by an example table:
 
