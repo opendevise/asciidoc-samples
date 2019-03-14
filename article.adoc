@@ -49,7 +49,7 @@ image::tiger.png[Tiger]
 image::ruby.svg[Ruby gemstone]
 
 .PNG in SVG block image
-image::tiger-in-svg.svg[Tiger in SVG]
+image::tiger-in-svg.svg[Tiger in SVG,opts=interactive]
 
 Followed by an example table:
 
