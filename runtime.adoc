@@ -99,6 +99,9 @@ You can do the same for all the admonition types.
 UTF-8 example::
 µService
 
+mention::
+written by @mojavelinux
+
 source highlighter::
 {source-highlighter}
 
