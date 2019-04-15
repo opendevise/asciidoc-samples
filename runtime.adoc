@@ -18,7 +18,7 @@ It also has some examples to show off the available features in the GitHub envir
 
 == Environment Info
 
-AsciiDoc implementation footnoteref:[calculated,Calculated value]::
+AsciiDoc implementation footnote:calculated[Calculated value]::
 ifdef::asciidoctor-version[Asciidoctor]
 ifdef::asciidoc-version[AsciiDoc Python]
 
@@ -31,7 +31,7 @@ safe-mode-name::
 env::
 {env}
 
-Rendering mode footnoteref:[calculated]::
+Rendering mode footnote:calculated[]::
 ifdef::embedded[embedded]
 ifndef::embedded[standalone]
 
