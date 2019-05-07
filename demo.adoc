@@ -15,6 +15,7 @@ Dan Allen <thedoc@asciidoctor.org>
 :experimental:
 //:toc: macro
 :toc: preamble
+:toc-title: pass:[<h3>Contents</h3>]
 :css-signature: demo
 //:max-width: 800px
 //:doctype: book
