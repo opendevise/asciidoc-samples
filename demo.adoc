@@ -147,6 +147,12 @@ Do you feel safer with the tiger in a box?
 .Tiger in a box
 image::tiger.png[]
 
+Fancy some math?
+
+pass:[$$\sum_{i=1}^N (f_i)^2$$]
+
+We'd like to include content, but for now the best we can do is link to it.
+
 include::include.adoc[]
 
 .Asciidoctor usage example. The listing should contain 5 lines.
