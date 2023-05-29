@@ -156,7 +156,7 @@ We'd like to include content, but for now the best we can do is link to it.
 include::include.adoc[]
 
 .Asciidoctor usage example. The listing should contain 5 lines.
-[source,ruby]
+[,ruby]
 ----
 require 'asciidoctor'
 
