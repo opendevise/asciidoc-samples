@@ -123,8 +123,10 @@ image example::
 +
 image::tiger.png[Tiger,200,200]
 
+ifndef::backend-pdf[]
 passthrough example::
 +++<i title="Yet Another Markup Language">YAML</i> stands for <ins>Y</ins>et <ins>A</ins>nother <ins>M</ins>arkup <ins>L</ins>anguage+++
+endif::[]
 
 smart quotes::
 "`Smart quotes`" are so smart!
