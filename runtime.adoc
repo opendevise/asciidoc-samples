@@ -4,8 +4,8 @@ v1.0.3, 2017-08-01
 :imagesdir: images
 :experimental:
 :toc: preamble
-:toc-title: pass:[<b>Contents</b>]
 ifdef::env-github[]
+:toc-title: pass:[<b>Contents</b>]
 :tip-caption: :bulb:
 endif::[]
 ifndef::env-github[]
